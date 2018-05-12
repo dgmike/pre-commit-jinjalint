@@ -1,4 +1,4 @@
-# pre-commit-jinjalint plugin
+# pre-commit-python plugin
 
 See explain at https://pre-commit.com/
 
