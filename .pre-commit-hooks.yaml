@@ -3,5 +3,5 @@
   description: Check jinja2 syntax
   entry: jinjalint
   language: python
+  language_version: python3
   types: ["html"]
-  
