@@ -1,7 +1,7 @@
 - id: jinjalint
   name: Jinja2 linter
   description: Check jinja2 syntax
-  entry: jinjalint_wrapper
+  entry: jinjalint-wrapper
   language: python
   language_version: python3
   types: ["html"]
