@@ -1,0 +1,7 @@
+- id: jinjalint
+  name: Jinja2 linter
+  description: Check jinja2 syntax
+  entry: jinjalint
+  language: python
+  types: ["html"]
+  
