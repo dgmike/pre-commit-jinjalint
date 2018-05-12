@@ -26,4 +26,9 @@ setup(
   install_requires=[
     'jinjalint==0.1',
   ],
+  entry_points={
+    'console_scripts': [
+      'jinjalint-wrapper = pre_commit_hooks.jinjalint_wrapper:main',
+    ]
+  }
 )
