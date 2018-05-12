@@ -19,7 +19,7 @@ repos:
 - repo: https://github.com/dgmike/pre-commit-python
   rev: master
   hooks:
-  - jinjalint
+  - id: jinjalint
 ```
 
 That's it. When you try to commit, pre-commit will validate your jinja files.
