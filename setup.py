@@ -24,6 +24,6 @@ setup(
     ],
   },
   install_requires=[
-    'jinjalint',
+    'jinjalint==0.1',
   ],
 )
