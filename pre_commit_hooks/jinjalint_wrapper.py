@@ -13,8 +13,8 @@ def main():
     issues = parse_issues()
     for issue in issues:
         print(str(issue))
-    return len(issues) == 0
+    return int(len(issues) > 0)
 
 
 if __name__ == '__main__':
-    sys.exit(check_json())
+    exit(main())
